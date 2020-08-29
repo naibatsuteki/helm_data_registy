@@ -1,4 +1,6 @@
 [core]
-    remote = s3remote
+    remote = gdrive_remote
 ['remote "s3remote"']
     url = s3://helm-invoices/dvc_cache
+['remote "gdrive_remote"']
+    url = gdrive://1fzhajzJzdYFwHMQ0m9g29SVuPujdyeR_
